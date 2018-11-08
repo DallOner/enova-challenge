@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+
+html,
+body {
+    background-color: #f9f5ff;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 12px;
+    color: #bfbfbf;
+    margin: 0 auto;
+    padding: 0;
+}
+
+p {
+    font-size: 16px;
+}
+
+.navbar {
+    background-color: #fdfdfd;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    font-size: 22px;
+    height: 60px;
+    width: 100%;
+    max-width: 100%;
+    box-shadow: 0px 1px 5px 0px #b7b7b7;
+}
+
+.brand {
+    text-decoration: none;
+    color: #d3d3d3;
+    margin-top: 15px;
+    margin-left: 40px;
+}
+
+.profile ul {
+    display: inline-flex;
+    list-style: none;
+    margin: 0 auto;
+}
+
+.profile ul li {
+    display: inherit;
+    justify-content: space-between;
+    margin-left: 45px;
+}
+
+.fa-bell,
+.fa-bars {
+    margin-top: 15px;
+}
+
+.fa-bars {
+    margin-right: 40px;
+}
+
+#search-ico {
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+#search-form {
+    background-color: transparent;
+    border: 0;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-style: italic;
+    color: #d3d3d3;
+}
+
+#search-form:focus {
+    outline: 0px;
+}
+
+#profile-pic {
+    width: 35px;
+    height: 35px;
+    margin-top: 12.5px;
+    padding-right: 5px;
+}
