@@ -10,13 +10,16 @@
     <!-- Costum Styles -->
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/sidebar.css">
+
+    <!-- Costum Scripts -->
+    <script type="text/javascript" src="js/sidebar.js"></script>
 </head>
 
 <body>
     <header>
         <navbar class="navbar">
             <div>
-                <a class="brand" href=""><i class="fa fa-th-large"></i> Boards</a>
+                <a class="brand" onclick="sideOpen();"><i class="fa fa-th-large"></i> Boards</a>
                 <label id="search-ico" for=""><i class="fa fa-search"></i></label>
                 <input id="search-form" type="text" placeholder="Search...">
             </div>
@@ -24,7 +27,7 @@
                 <ul>
                     <li>
                         <img id="profile-pic" src="https://via.placeholder.com/35" alt="Profile Pic">
-                        <p>Hello, Anna!</p>
+                        <p id="user">Hello, Anna!</p>
                     </li>
                     <li>
                         <i class="fa fa-bell fa-lg"></i>
@@ -37,21 +40,31 @@
         </navbar>
         <div id="sidebarMenu">
             <ul>
-                <li><i class="fa fa-times"></i></li>
-                <a href="https://vanila.io" target="_blank">
-                    <li>Company</li>
+                <li><i class="fa fa-times" onclick="sideClose();"></i></li>
+                <li class="planner"><span><i class="fa fa-star fa-lg"></i> Planner Board</span></li>
+                <li>
+                    <p>Filter by Board</p>
+                </li>
+                <a href="" target="_blank">
+                    <li>Planner Board</li>
                 </a>
-                <a href="https://instagram.com/plavookac" target="_blank">
-                    <li>Instagram</li>
-                </a>
-                <a href="https://twitter.com/plavookac" target="_blank">
-                    <li>Twitter</li>
+                <a href="" target="_blank">
+                    <li>Summary Board</li>
                 </a>
                 <a href="https://www.youtube.com/channel/UCDfZM0IK6RBgud8HYGFXAJg" target="_blank">
-                    <li>YouTube</li>
+                    <li>Project Board</li>
                 </a>
-                <a href="https://www.linkedin.com/in/plavookac/" target="_blank">
-                    <li>Linkedin</li>
+                <a href="" target="_blank">
+                    <li>Internal Board</li>
+                </a>
+                <li>
+                    <p>Filter by Member</p>
+                </li>
+                <a href="" target="_blank">
+                    <li>Anna Klawikowska</li>
+                </a>
+                <a href="" target="_blank">
+                    <li>Siergiej Soskowiec</li>
                 </a>
             </ul>
         </div>

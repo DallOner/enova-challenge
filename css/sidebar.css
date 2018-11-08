@@ -1,12 +1,18 @@
+p {
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
 #sidebarMenu {
     position: fixed;
-    display: block;
+    display: none;
     background-color: #ffffff;
     width: 300px;
     height: 100%;
     margin-top: -50px;
     padding: 0;
     z-index: 10;
+    font-size: 20px;
 }
 
 #sidebarMenu ul {
@@ -15,14 +21,21 @@
     padding: inherit;
 }
 
+#sidebarMenu ul li {
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+
 #sidebarMenu ul a {
     margin-left: 30px;
     text-decoration: none;
 }
 
 #sidebarMenu ul a li {
-    height: 50px;
-    padding-left: 30px;
+    height: 30px;
+    padding-top: 15px;
+    padding-left: 15px;
+    color: #2e2e2e;
 }
 
 #sidebarMenu ul a li:hover {
@@ -30,6 +43,9 @@
 }
 
 .fa-times {
-    margin-left: 260px;
-    padding-bottom: 20px;
+    margin-left: 230px;
+}
+
+.planner {
+    padding-bottom: 40px !important;
 }
