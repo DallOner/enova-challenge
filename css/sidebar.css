@@ -49,3 +49,14 @@ p {
 .planner {
     padding-bottom: 40px !important;
 }
+
+#overlay {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #000000;
+    opacity: .1;
+}
