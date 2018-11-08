@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.item {
+    margin-top: 50px;
+}
+
+.item-bottom-1 {
+    margin-left: 25px;
+}
+
+.item-bottom-2 {
+    margin-right: 25px;
+}
